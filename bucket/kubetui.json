@@ -8,7 +8,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sarub0b0/kubetui/releases/download/v1.5.0/kubetui-x86_64-pc-windows-msvc-rustls.exe",
+            "url": "https://github.com/sarub0b0/kubetui/releases/download/v1.5.0/kubetui-x86_64-pc-windows-msvc-rustls.exe#/kubetui.exe",
             "hash": "3ac97e3cbe4ca2d0fed8a7bd3b958162bcbd51bb3b849b090a2810cee3fb5bdf"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sarub0b0/kubetui/releases/download/v$version/kubetui-x86_64-pc-windows-msvc-rustls.exe"
+                "url": "https://github.com/sarub0b0/kubetui/releases/download/v$version/kubetui-x86_64-pc-windows-msvc-rustls.exe#/kubetui.exe"
             }
         }
     }
