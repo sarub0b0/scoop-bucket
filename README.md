@@ -20,3 +20,15 @@ To make a new manifest contribution, please read the [Contributing
 Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
 and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
 wiki page.
+
+## Manifest Autoupdate
+
+[scoop wiki](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate)
+
+```pwsh
+.\bin\checkver.ps1 <app>
+# or .\bin\checkver.ps1 -App <app>
+
+.\bin\checkver.ps1 <app> -u
+# or .\bin\checkver.ps1 -App <app> -Update
+```
